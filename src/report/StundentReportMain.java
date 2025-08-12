@@ -31,6 +31,7 @@ public class StundentReportMain {
                 createStundent();
                 break;
             case "R" :
+                readStudent();
                 break;
             case "U" :
                 break;
@@ -44,4 +45,5 @@ public class StundentReportMain {
         }
     }
     public static void createStundent() { Student newStudent = new Student(); }
+    public static void readStudent() {}
 }
